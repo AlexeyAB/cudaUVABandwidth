@@ -1,0 +1,110 @@
+Device count: 1
+Device0: GeForce GTX 460 SE (1024 MB), CUDA capability: 2.1
+UVA: 1
+MAX BLOCKS NUMBER: 65535
+
+DMA: block_size = 134217728,     time H->D->H: 0.0465455, 5500 MB/sec
+UVA: block_size = 134217728,     time H->D->H: 0.043913, 5829.7 MB/sec
+UVA 2B: block_size = 134217728, time H->D->H: 0.0457727, 5592.85 MB/sec
+UVA 1B: block_size = 134217728, time H->D->H: 0.0565556, 4526.52 MB/sec
+-----------------------------------------------------
+DMA: block_size = 67108864,      time H->D->H: 0.0235349, 5438.74 MB/sec
+UVA: block_size = 67108864,      time H->D->H: 0.0230455, 5554.24 MB/sec
+UVA 2B: block_size = 67108864, time H->D->H: 0.0234186, 5465.74 MB/sec
+UVA 1B: block_size = 67108864, time H->D->H: 0.0290571, 4405.11 MB/sec
+-----------------------------------------------------
+DMA: block_size = 33554432,      time H->D->H: 0.0123049, 5201.19 MB/sec
+UVA: block_size = 33554432,      time H->D->H: 0.0119405, 5359.92 MB/sec
+UVA 2B: block_size = 33554432, time H->D->H: 0.0116628, 5487.54 MB/sec
+UVA 1B: block_size = 33554432, time H->D->H: 0.0142394, 4494.56 MB/sec
+-----------------------------------------------------
+DMA: block_size = 16777216,      time H->D->H: 0.00611585, 5232.3 MB/sec
+UVA: block_size = 16777216,      time H->D->H: 0.00579191, 5524.95 MB/sec
+UVA 2B: block_size = 16777216, time H->D->H: 0.00631447, 5067.73 MB/sec
+UVA 1B: block_size = 16777216, time H->D->H: 0.00741482, 4315.68 MB/sec
+-----------------------------------------------------
+DMA: block_size = 8388608,       time H->D->H: 0.00317089, 5045.91 MB/sec
+UVA: block_size = 8388608,       time H->D->H: 0.00307669, 5200.4 MB/sec
+UVA 2B: block_size = 8388608, time H->D->H: 0.00312813, 5114.88 MB/sec
+UVA 1B: block_size = 8388608, time H->D->H: 0.00373134, 4288 MB/sec
+-----------------------------------------------------
+DMA: block_size = 4194304,       time H->D->H: 0.0014556, 5496 MB/sec
+UVA: block_size = 4194304,       time H->D->H: 0.00146628, 5456 MB/sec
+UVA 2B: block_size = 4194304, time H->D->H: 0.00147493, 5424 MB/sec
+UVA 1B: block_size = 4194304, time H->D->H: 0.0018036, 4435.56 MB/sec
+-----------------------------------------------------
+DMA: block_size = 2097152,       time H->D->H: 0.000776398, 5152 MB/sec
+UVA: block_size = 2097152,       time H->D->H: 0.000789266, 5068 MB/sec
+UVA 2B: block_size = 2097152, time H->D->H: 0.000784929, 5096 MB/sec
+UVA 1B: block_size = 2097152, time H->D->H: 0.00094518, 4232 MB/sec
+-----------------------------------------------------
+DMA: block_size = 1048576,       time H->D->H: 0.0004329, 4620 MB/sec
+UVA: block_size = 1048576,       time H->D->H: 0.000437445, 4572 MB/sec
+UVA 2B: block_size = 1048576, time H->D->H: 0.000439754, 4548 MB/sec
+UVA 1B: block_size = 1048576, time H->D->H: 0.000518135, 3860 MB/sec
+-----------------------------------------------------
+DMA: block_size = 524288,        time H->D->H: 0.0002574, 3885 MB/sec
+UVA: block_size = 524288,        time H->D->H: 0.000268673, 3722 MB/sec
+UVA 2B: block_size = 524288, time H->D->H: 0.000265887, 3761 MB/sec
+UVA 1B: block_size = 524288, time H->D->H: 0.000309502, 3231 MB/sec
+-----------------------------------------------------
+DMA: block_size = 262144,        time H->D->H: 0.000174004, 2873.5 MB/sec
+UVA: block_size = 262144,        time H->D->H: 0.000182315, 2742.5 MB/sec
+UVA 2B: block_size = 262144, time H->D->H: 0.000181521, 2754.5 MB/sec
+UVA 1B: block_size = 262144, time H->D->H: 0.0002, 2500 MB/sec
+-----------------------------------------------------
+DMA: block_size = 131072,        time H->D->H: 0.000127714, 1957.5 MB/sec
+UVA: block_size = 131072,        time H->D->H: 0.000135007, 1851.75 MB/sec
+UVA 2B: block_size = 131072, time H->D->H: 0.000180832, 1382.5 MB/sec
+UVA 1B: block_size = 131072, time H->D->H: 0.000138427, 1806 MB/sec
+-----------------------------------------------------
+DMA: block_size = 65536,         time H->D->H: 9.90688e-005, 1261.75 MB/sec
+UVA: block_size = 65536,         time H->D->H: 0.000110522, 1131 MB/sec
+UVA 2B: block_size = 65536, time H->D->H: 0.000145539, 858.875 MB/sec
+UVA 1B: block_size = 65536, time H->D->H: 0.000129199, 967.5 MB/sec
+-----------------------------------------------------
+DMA: block_size = 32768,         time H->D->H: 8.60882e-005, 726 MB/sec
+UVA: block_size = 32768,         time H->D->H: 9.89022e-005, 631.938 MB/sec
+UVA 2B: block_size = 32768, time H->D->H: 0.000133103, 469.562 MB/sec
+UVA 1B: block_size = 32768, time H->D->H: 0.000128866, 485 MB/sec
+-----------------------------------------------------
+DMA: block_size = 16384,         time H->D->H: 7.98658e-005, 391.281 MB/sec
+UVA: block_size = 16384,         time H->D->H: 8.49979e-005, 367.656 MB/sec
+UVA 2B: block_size = 16384, time H->D->H: 0.00012596, 248.094 MB/sec
+UVA 1B: block_size = 16384, time H->D->H: 0.000143534, 217.719 MB/sec
+-----------------------------------------------------
+DMA: block_size = 8192,          time H->D->H: 9.29109e-005, 168.172 MB/sec
+UVA: block_size = 8192,          time H->D->H: 8.95335e-005, 174.516 MB/sec
+UVA 2B: block_size = 8192, time H->D->H: 0.000134066, 116.547 MB/sec
+UVA 1B: block_size = 8192, time H->D->H: 0.000136091, 114.813 MB/sec
+-----------------------------------------------------
+DMA: block_size = 4096,          time H->D->H: 8.67453e-005, 90.0625 MB/sec
+UVA: block_size = 4096,          time H->D->H: 9.13159e-005, 85.5547 MB/sec
+UVA 2B: block_size = 4096, time H->D->H: 0.000138122, 56.5625 MB/sec
+UVA 1B: block_size = 4096, time H->D->H: 0.000138735, 56.3125 MB/sec
+-----------------------------------------------------
+DMA: block_size = 2048,          time H->D->H: 8.63782e-005, 45.2227 MB/sec
+UVA: block_size = 2048,          time H->D->H: 9.8912e-005, 39.4922 MB/sec
+UVA 2B: block_size = 2048, time H->D->H: 0.000138313, 28.2422 MB/sec
+UVA 1B: block_size = 2048, time H->D->H: 0.000105053, 37.1836 MB/sec
+-----------------------------------------------------
+DMA: block_size = 1024,          time H->D->H: 7.65521e-005, 25.5137 MB/sec
+UVA: block_size = 1024,          time H->D->H: 9.75324e-005, 20.0254 MB/sec
+UVA 2B: block_size = 1024, time H->D->H: 0.000107527, 18.1641 MB/sec
+UVA 1B: block_size = 1024, time H->D->H: 0.000101864, 19.1738 MB/sec
+-----------------------------------------------------
+DMA: block_size = 512,   time H->D->H: 7.86102e-005, 12.4229 MB/sec
+UVA: block_size = 512,   time H->D->H: 8.8308e-005, 11.0586 MB/sec
+UVA 2B: block_size = 512, time H->D->H: 0.000113779, 8.58301 MB/sec
+UVA 1B: block_size = 512, time H->D->H: 0.000103961, 9.39355 MB/sec
+-----------------------------------------------------
+DMA: block_size = 256,   time H->D->H: 8.59697e-005, 5.67969 MB/sec
+UVA: block_size = 256,   time H->D->H: 8.11359e-005, 6.01807 MB/sec
+UVA 2B: block_size = 256, time H->D->H: 0.000107654, 4.53564 MB/sec
+UVA 1B: block_size = 256, time H->D->H: 9.78953e-005, 4.98779 MB/sec
+-----------------------------------------------------
+DMA: block_size = 128,   time H->D->H: 7.5884e-005, 3.21729 MB/sec
+UVA: block_size = 128,   time H->D->H: 8.37591e-005, 2.91479 MB/sec
+UVA 2B: block_size = 128, time H->D->H: 0.000119732, 2.03906 MB/sec
+UVA 1B: block_size = 128, time H->D->H: 9.78665e-005, 2.49463 MB/sec
+-----------------------------------------------------
